@@ -793,7 +793,9 @@ span {
     }
 
     .home-img img {
-        display: none;
+        right: 13%;
+        width: 230px;
+        height: 240px;
     }
 
     .footer {
