@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Responsive Portfolio Website Design</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-sun" id="lightMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Utkarsh Jain</h1>
+            <p>
+                I am a BCA graduate with a strong foundation in web development. I’m passionate about creating impactful and user-friendly websites, and I aspire to continually grow my expertise while contributing to meaningful projects in the digital space.
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/utkarsh.jain.932428/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://x.com/Utkarsh492" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/utkarshjain492/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/utkarsh-jain-7b8813252/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="https://drive.google.com/file/d/1DR7CjQ2oaX1gXgNYpZraSZ0Gpehl4k50/view?usp=drive_link" class="btn" target="_blank">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-terminal' style='color:#754EF9'></i> 
+                    <h3>Programmer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-bug' style='color:#754EF9'></i>
+                    <h3>Problem Solver</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                Hi there, welcome to my website! I'm Utkarsh Jain,
+                a passionate web developer who enjoys learning new technologies
+                and solving problems with code!
+            </h3>
+            <p>
+                This website is my personal blog where I write about web development
+                topics that interest me and inspire me.
+            </p>
+            <p>
+                Thank you for visiting my website and getting to know me better. I hope you
+                enjoyed reading my blog posts and
+                found them useful and informative. If you have any feedback or
+                suggestions, please let me know. I'd love to hear from you.
+            </p>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Web development involves creating, designing, and maintaining websites and web applications using coding languages like HTML, CSS, JavaScript, and frameworks.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Web Designing</h3>
+                <p>Web designing involves creating visually appealing, user-friendly, and responsive website layouts using HTML, CSS, and design tools for digital experiences.</p>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-bug' style='color:#754EF9'></i> 
+                <h3>Bug Fixes</h3>
+                <p>Bug fixes address software errors, improve functionality, enhance stability, and ensure optimal performance by correcting code inconsistencies or issues.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>E-Commerce Website</h4>
+                    <p>I developed an E-commerce website that enables users to select and purchase products online.</p>
+                    <a href="https://github.com/Utkarshjain492/jain-treasures" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Email Bomber</h4>
+                    <p>I created a Mail Bomber tool designed to send multiple automated emails to a targeted address for testing and for educational purposes.</p>
+                    <a href="https://mail-boom.onrender.com" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Screen Resolution</h4>
+                    <p>This project is a Screen Resolution Checker tool that detects and displays the user's current screen width and height.</p>
+                    <a href="https://check-device-resolution.onrender.com" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio4.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Studnt Mgmt Sys</h4>
+                    <p>A Student Management System is a software application designed to efficiently manage, track, and organize student data, records, and academic activities.</p>
+                    <a href="https://github.com/Utkarshjain492/Studnt-mgmt-sys" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio5.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Basic Calculator</h4>
+                    <p>A simple and functional calculator project designed to perform basic arithmetic operations like addition, subtraction, multiplication, and division.</p>
+                    <a href="https://normal-calculator.onrender.com" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio6.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>ChatBot</h4>
+                    <p>A chatbot designed to interact with users, answer their queries, and provide relevant information through natural, conversational dialogue.</p>
+                    <a href="#portfolio" onclick="progress()"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+    <div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial1.png" alt="">
+                        <h3>Utsa Tikader</h3>
+                        <p>Working with <b>Utkarsh Jain</b> has been an absolute pleasure. From the initial consultation to the final delivery of my business website, the entire process was smooth, transparent, and highly professional. I approached them with just a rough idea of what I wanted for my brand's online presence, and they turned that vision into a fully functional, beautifully designed website that perfectly captures my brand's identity.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial2.jpg" alt="">
+                        <h3>Aditya Rai</h3>
+                        <p>I had the opportunity to collaborate with <b>Utkarsh Jain</b> on a multi-page portfolio project, and I was genuinely impressed by their skill set and work ethic. From the very beginning, they approached the project with enthusiasm and a clear sense of purpose. Their ability to translate client needs into clean, functional, and aesthetically pleasing designs is truly commendable.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial3.jpg" alt="">
+                        <h3>Vishal Maurya</h3>
+                        <p>I recently came across a website designed by <b>Utkarsh Jain</b>, and I have to say it left a lasting impression on me. As someone who spends a lot of time browsing different websites, I can confidently say this one stood out for its clean layout, intuitive navigation, and seamless responsiveness across all devices.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <div class="input-box">
+                <input type="hidden" name="access_key" value="9926f12a-d5a7-4c81-a69b-c44f207e8999">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="number" name="mobile" placeholder="Mobile Number" required>
+                <input type="text" name="subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
